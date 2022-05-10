@@ -1,0 +1,27 @@
+
+
+============================== 2022-05-04 08:31:44.806964 | 2fbf5b91-566f-4134-a9ac-fe6f4e20de5e ==============================
+08:31:44.806964 [info ] [MainThread]: Running with dbt=1.1.0
+08:31:44.807962 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\katep\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'sakila_dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+08:31:44.808981 [debug] [MainThread]: Tracking: tracking
+08:31:44.811955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A879466508>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A879462F08>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A879462E08>]}
+08:31:44.814955 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\katep\.dbt
+08:31:44.823950 [debug] [MainThread]: Starter project path: c:\users\katep\miniconda3\envs\cy_example\lib\site-packages\dbt\include\starter_project
+08:32:00.532380 [info ] [MainThread]: Profile sakila_dbt written to C:\Users\katep\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+08:32:00.533357 [info ] [MainThread]: 
+Your new dbt project "sakila_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+08:32:00.535379 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A879462F08>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A879462448>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8794624C8>]}
